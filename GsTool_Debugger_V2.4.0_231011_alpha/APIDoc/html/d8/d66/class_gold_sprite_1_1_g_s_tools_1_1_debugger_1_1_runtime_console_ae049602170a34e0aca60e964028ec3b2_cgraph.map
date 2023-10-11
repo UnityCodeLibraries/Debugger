@@ -1,9 +1,0 @@
-<map id="GoldSprite.GSTools.Debugger.RuntimeConsole.OnGUI" name="GoldSprite.GSTools.Debugger.RuntimeConsole.OnGUI">
-<area shape="rect" id="Node000001" title=" " alt="" coords="5,37,205,77"/>
-<area shape="rect" id="Node000002" href="$d8/d66/class_gold_sprite_1_1_g_s_tools_1_1_debugger_1_1_runtime_console.html#aa8b3ac74279835b7a3a77cb5a43900ef" title="Displays a window that lists the recorded logs." alt="" coords="253,37,496,77"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="206,55,240,55,240,60,206,60"/>
-<area shape="rect" id="Node000003" href="$d8/d66/class_gold_sprite_1_1_g_s_tools_1_1_debugger_1_1_runtime_console.html#a5001a2c9354b4acb0bc0262939e38bf8" title="Displays a scrollable list of logs." alt="" coords="544,5,744,45"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="496,40,530,36,530,41,496,46"/>
-<area shape="rect" id="Node000004" href="$d8/d66/class_gold_sprite_1_1_g_s_tools_1_1_debugger_1_1_runtime_console.html#a8168db4ae172ec689a40e4f289a5ab42" title="Displays options for filtering and changing the logs list." alt="" coords="544,69,744,109"/>
-<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="496,69,530,73,530,78,496,74"/>
-</map>

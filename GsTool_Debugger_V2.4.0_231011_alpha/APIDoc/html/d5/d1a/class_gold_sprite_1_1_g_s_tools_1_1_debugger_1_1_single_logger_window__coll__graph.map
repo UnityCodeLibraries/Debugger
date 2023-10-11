@@ -1,9 +1,0 @@
-<map id="GoldSprite.GSTools.Debugger.SingleLoggerWindow" name="GoldSprite.GSTools.Debugger.SingleLoggerWindow">
-<area shape="rect" id="Node000001" title=" " alt="" coords="17,183,217,223"/>
-<area shape="rect" id="Node000002" title=" " alt="" coords="5,87,116,113"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="76,124,108,181,104,184,71,126"/>
-<area shape="rect" id="Node000003" href="$d0/db9/class_gold_sprite_1_1_g_s_tools_1_1_debugger_1_1_show_tags.html" title=" " alt="" coords="141,80,341,120"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="208,131,142,185,138,181,205,127"/>
-<area shape="rect" id="Node000004" title=" " alt="" coords="181,5,300,31"/>
-<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="243,44,243,80,238,80,238,44"/>
-</map>
