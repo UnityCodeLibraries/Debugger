@@ -1,33 +1,31 @@
 # Debugger
 一个用于Unity运行时的UI面板展示一些控制台信息
 
-# S2.0
+# GsTool_Debugger_V2.4.0.231011.alpha
 
 ### 应用场景: 
 - 当你可能要在不同测试阶段查看不同的测试信息并需要动态筛选时可以使用此组件
-### 如何使用: 
-#### 配置
-1. 添加一个Gameobject并挂载RuntimeConsole组件
-1. 创建ShowTags预设并挂到该组件上
-1. 将你想要显示的标签添加在预设列表
-#### 使用与查看
-1. 然后你就可以使用MyDB.DL/LW来输出日志信息并在Console或游戏中实时查看
+### 现有功能: 
+#### 新的: SingleLoggerWindow
+##### 配置
+1. 从Prefabs将SingleLoggerWindow预制件拖入场景中即可
+##### 更新配置
+1. 修改示例标签: 
+    - 修改Presets下示例预设的ShowTags列表即可
+1. 启用或禁用: 
+    - tag后加Ban即为禁用
+    - 反之启用
+1. 增加预设: 
+    - Project窗口右键Create直接创建ShowTagsPreset并挂载到SingleLoggerWindow组件上即可
+##### 使用
+- 直接调用Unity log方法即可, 格式为tag加:号加yourMes, (需要ShowTagsPreset存在此tag)
 ```
-  MyDB.DebugCallback = true;//开启输出回调
-  
-  MyDB.DL("V1", "这是一条Log信息");
-  MyDB.LW("V1", "这是一条Warn信息");
-  MyDB.LW("V2", "按~键切换显示游戏调试信息台");
-  MyDB.DL("V3", "这是一条不会显示的Log信息");
-  MyDB.LW("V2", "Collapse切换集中显示, ScrollBottom切换自动滑底");
-  MyDB.DL("V2", "kkk\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nkkk");
+      Debug.Log("Tag: 显示的消息");
 ```
-#### 更新标签
-1. 可以随时通过增加或移除ShowTags预设来过滤你需要的标签
-1. 或者直接拖入不同的预设来更改过滤配置
-#### 实时控制台
-1. 按~键切换显示游戏调试信息台  
-    - Collapse切换集中显示, 
-    - ScrollBottom切换自动滑底  
-### 更新信息: 
-将绑死的ShowTags优化为ShowTagsPreset预设
+##### 旧版: 实时控制台
+1. 启用: 
+    - 挂载RuntimeConsole组件即可启用, (已过时)
+1. 使用: 
+    - 按~键切换显示游戏调试信息台  
+        - Collapse切换集中显示, 
+        - ScrollBottom切换自动滑底  
