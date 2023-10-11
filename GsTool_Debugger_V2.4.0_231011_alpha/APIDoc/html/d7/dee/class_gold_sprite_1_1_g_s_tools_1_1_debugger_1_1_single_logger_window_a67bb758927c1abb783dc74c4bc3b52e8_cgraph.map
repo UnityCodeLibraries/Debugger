@@ -1,0 +1,9 @@
+<map id="GoldSprite.GSTools.Debugger.SingleLoggerWindow.PreHandleLog" name="GoldSprite.GSTools.Debugger.SingleLoggerWindow.PreHandleLog">
+<area shape="rect" id="Node000001" title="Records a log from the log callback." alt="" coords="5,49,233,89"/>
+<area shape="rect" id="Node000002" href="$d7/dee/class_gold_sprite_1_1_g_s_tools_1_1_debugger_1_1_single_logger_window.html#a1415e81639cd9d2012210dd78fbabfa7" title="从showtags预设匹配是否存在tag并返回 处理后的消息" alt="" coords="281,5,517,60"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="233,51,267,47,268,52,234,57"/>
+<area shape="rect" id="Node000003" href="$d7/dee/class_gold_sprite_1_1_g_s_tools_1_1_debugger_1_1_single_logger_window.html#afccfe0ebdb11699c2fe46e13ec48f166" title=" " alt="" coords="295,85,503,125"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="234,81,282,87,281,92,233,86"/>
+<area shape="rect" id="Node000004" href="$d7/dee/class_gold_sprite_1_1_g_s_tools_1_1_debugger_1_1_single_logger_window.html#aeb59b19730a100b09d2e4eddae8ea006" title=" " alt="" coords="565,85,809,125"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="504,102,552,102,552,107,504,107"/>
+</map>

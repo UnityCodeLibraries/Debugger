@@ -1,0 +1,171 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="zh">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.9.8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>TestDoxygen1: E:/WorkSpaces/Unity_WorkSpace/Projects/TestProject_All_2023.3.8/Assets/GSTools/GsTool_Debugger_V2.4.0_231011_alpha/Samples/单行Pop浮窗日志用法/TestSingleLoggerWindow.cs 源文件</title>
+<link href="../../tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="../../jquery.js"></script>
+<script type="text/javascript" src="../../dynsections.js"></script>
+<link href="../../navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="../../resize.js"></script>
+<script type="text/javascript" src="../../navtreedata.js"></script>
+<script type="text/javascript" src="../../navtree.js"></script>
+<link href="../../search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="../../search/searchdata.js"></script>
+<script type="text/javascript" src="../../search/search.js"></script>
+<link href="../../doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectalign">
+   <div id="projectname">TestDoxygen1<span id="projectnumber">&#160;1.0.0</span>
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 制作者 Doxygen 1.9.8 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "../../search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="../../menudata.js"></script>
+<script type="text/javascript" src="../../menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('../../',true,false,'search.php','搜索');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(document).ready(function() { init_codefold(1); });
+/* @license-end */
+</script>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(document).ready(function(){initNavTree('d2/d20/_test_single_logger_window_8cs_source.html','../../'); initResizable(); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">载入中...</div>
+<div class="SRStatus" id="Searching">搜索中...</div>
+<div class="SRStatus" id="NoMatches">未找到</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="headertitle"><div class="title">TestSingleLoggerWindow.cs</div></div>
+</div><!--header-->
+<div class="contents">
+<a href="../../d2/d20/_test_single_logger_window_8cs.html">浏览该文件的文档.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="keyword">using </span><a class="code hl_namespace" href="../../d2/d03/namespace_gold_sprite_1_1_g_s_tools_1_1_debugger.html">GoldSprite.GSTools.Debugger</a>;</div>
+<div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span><span class="keyword">using </span>System.Collections;</div>
+<div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span><span class="keyword">using </span>System.Collections.Generic;</div>
+<div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="keyword">using </span>UnityEngine;</div>
+<div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span> </div>
+<div class="foldopen" id="foldopen00006" data-start="{" data-end="};">
+<div class="line"><a id="l00006" name="l00006"></a><span class="lineno"><a class="line" href="../../dc/d52/class_test_single_logger_window.html">    6</a></span><span class="keyword">public</span> <span class="keyword">class </span><a class="code hl_class" href="../../dc/d52/class_test_single_logger_window.html">TestSingleLoggerWindow</a> : MonoBehaviour</div>
+<div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span>{</div>
+<div class="line"><a id="l00008" name="l00008"></a><span class="lineno"><a class="line" href="../../dc/d52/class_test_single_logger_window.html#a447fb6abcf8e6fc91990718dd276dd48">    8</a></span>    <span class="keyword">public</span> <span class="keywordtype">float</span> <a class="code hl_variable" href="../../dc/d52/class_test_single_logger_window.html#a447fb6abcf8e6fc91990718dd276dd48">tick</a> = 0;</div>
+<div class="line"><a id="l00009" name="l00009"></a><span class="lineno"><a class="line" href="../../dc/d52/class_test_single_logger_window.html#a3f54fba6b2c3ad4d6d86469297e5b3d2">    9</a></span>    <span class="keyword">public</span> <span class="keywordtype">float</span> <a class="code hl_variable" href="../../dc/d52/class_test_single_logger_window.html#a3f54fba6b2c3ad4d6d86469297e5b3d2">maxtick</a> = 0.5f;</div>
+<div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span> </div>
+<div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span> </div>
+<div class="foldopen" id="foldopen00012" data-start="{" data-end="}">
+<div class="line"><a id="l00012" name="l00012"></a><span class="lineno"><a class="line" href="../../dc/d52/class_test_single_logger_window.html#a4e2e2d68ecf1ac8c0e3a87330dd7812d">   12</a></span>    <span class="keyword">private</span> <span class="keywordtype">void</span> <a class="code hl_function" href="../../dc/d52/class_test_single_logger_window.html#a4e2e2d68ecf1ac8c0e3a87330dd7812d">Start</a>()</div>
+<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span>    {</div>
+<div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span>        Debug.Log(<span class="stringliteral">&quot;KK: ²»ÏÔÊ¾&quot;</span>);</div>
+<div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span>        Debug.Log(<span class="stringliteral">&quot;VV: ÏÔÊ¾&quot;</span>);</div>
+<div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span>    }</div>
+</div>
+<div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span> </div>
+<div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span> </div>
+<div class="foldopen" id="foldopen00019" data-start="{" data-end="}">
+<div class="line"><a id="l00019" name="l00019"></a><span class="lineno"><a class="line" href="../../dc/d52/class_test_single_logger_window.html#a502884538dbaed33fb27c5b2c2a47f71">   19</a></span>    <span class="keywordtype">void</span> <a class="code hl_function" href="../../dc/d52/class_test_single_logger_window.html#a502884538dbaed33fb27c5b2c2a47f71">Update</a>()</div>
+<div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span>    {</div>
+<div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span>        <a class="code hl_function" href="../../dc/d52/class_test_single_logger_window.html#ae6b0ac096b2c96d7eba4fefa4bb060fa">UpdateNewSign</a>();</div>
+<div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span>    }</div>
+</div>
+<div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span> </div>
+<div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span> </div>
+<div class="foldopen" id="foldopen00025" data-start="{" data-end="}">
+<div class="line"><a id="l00025" name="l00025"></a><span class="lineno"><a class="line" href="../../dc/d52/class_test_single_logger_window.html#ae6b0ac096b2c96d7eba4fefa4bb060fa">   25</a></span>    <span class="keyword">private</span> <span class="keywordtype">void</span> <a class="code hl_function" href="../../dc/d52/class_test_single_logger_window.html#ae6b0ac096b2c96d7eba4fefa4bb060fa">UpdateNewSign</a>()</div>
+<div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span>    {</div>
+<div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span>        <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../dc/d52/class_test_single_logger_window.html#a447fb6abcf8e6fc91990718dd276dd48">tick</a> &gt; <a class="code hl_variable" href="../../dc/d52/class_test_single_logger_window.html#a3f54fba6b2c3ad4d6d86469297e5b3d2">maxtick</a>)</div>
+<div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span>        {</div>
+<div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span>            <a class="code hl_variable" href="../../dc/d52/class_test_single_logger_window.html#a447fb6abcf8e6fc91990718dd276dd48">tick</a> = 0;</div>
+<div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span> </div>
+<div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span>            var str = <span class="stringliteral">&quot;&quot;</span>;</div>
+<div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span>            <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = 0; i &lt; UnityEngine.Random.Range(1, 6); i++)</div>
+<div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span>            {</div>
+<div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span>                str += <span class="stringliteral">&quot;AAAA&quot;</span>;</div>
+<div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span>            }</div>
+<div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span>            Debug.Log(<span class="stringliteral">&quot;KK: &quot;</span>+str);</div>
+<div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span>            <span class="comment">//MyDB.DL(&quot;Temp&quot;, str);</span></div>
+<div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span>        }</div>
+<div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span>        <span class="keywordflow">else</span></div>
+<div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span>        {</div>
+<div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span>            <a class="code hl_variable" href="../../dc/d52/class_test_single_logger_window.html#a447fb6abcf8e6fc91990718dd276dd48">tick</a> += Time.deltaTime;</div>
+<div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span>        }</div>
+<div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span>    }</div>
+</div>
+<div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span> </div>
+<div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span> </div>
+<div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span>}</div>
+</div>
+<div class="ttc" id="aclass_test_single_logger_window_html"><div class="ttname"><a href="../../dc/d52/class_test_single_logger_window.html">TestSingleLoggerWindow</a></div><div class="ttdef"><b>Definition</b> <a href="../../d2/d20/_test_single_logger_window_8cs_source.html#l00006">TestSingleLoggerWindow.cs:7</a></div></div>
+<div class="ttc" id="aclass_test_single_logger_window_html_a3f54fba6b2c3ad4d6d86469297e5b3d2"><div class="ttname"><a href="../../dc/d52/class_test_single_logger_window.html#a3f54fba6b2c3ad4d6d86469297e5b3d2">TestSingleLoggerWindow.maxtick</a></div><div class="ttdeci">float maxtick</div><div class="ttdef"><b>Definition</b> <a href="../../d2/d20/_test_single_logger_window_8cs_source.html#l00009">TestSingleLoggerWindow.cs:9</a></div></div>
+<div class="ttc" id="aclass_test_single_logger_window_html_a447fb6abcf8e6fc91990718dd276dd48"><div class="ttname"><a href="../../dc/d52/class_test_single_logger_window.html#a447fb6abcf8e6fc91990718dd276dd48">TestSingleLoggerWindow.tick</a></div><div class="ttdeci">float tick</div><div class="ttdef"><b>Definition</b> <a href="../../d2/d20/_test_single_logger_window_8cs_source.html#l00008">TestSingleLoggerWindow.cs:8</a></div></div>
+<div class="ttc" id="aclass_test_single_logger_window_html_a4e2e2d68ecf1ac8c0e3a87330dd7812d"><div class="ttname"><a href="../../dc/d52/class_test_single_logger_window.html#a4e2e2d68ecf1ac8c0e3a87330dd7812d">TestSingleLoggerWindow.Start</a></div><div class="ttdeci">void Start()</div><div class="ttdef"><b>Definition</b> <a href="../../d2/d20/_test_single_logger_window_8cs_source.html#l00012">TestSingleLoggerWindow.cs:12</a></div></div>
+<div class="ttc" id="aclass_test_single_logger_window_html_a502884538dbaed33fb27c5b2c2a47f71"><div class="ttname"><a href="../../dc/d52/class_test_single_logger_window.html#a502884538dbaed33fb27c5b2c2a47f71">TestSingleLoggerWindow.Update</a></div><div class="ttdeci">void Update()</div><div class="ttdef"><b>Definition</b> <a href="../../d2/d20/_test_single_logger_window_8cs_source.html#l00019">TestSingleLoggerWindow.cs:19</a></div></div>
+<div class="ttc" id="aclass_test_single_logger_window_html_ae6b0ac096b2c96d7eba4fefa4bb060fa"><div class="ttname"><a href="../../dc/d52/class_test_single_logger_window.html#ae6b0ac096b2c96d7eba4fefa4bb060fa">TestSingleLoggerWindow.UpdateNewSign</a></div><div class="ttdeci">void UpdateNewSign()</div><div class="ttdef"><b>Definition</b> <a href="../../d2/d20/_test_single_logger_window_8cs_source.html#l00025">TestSingleLoggerWindow.cs:25</a></div></div>
+<div class="ttc" id="anamespace_gold_sprite_1_1_g_s_tools_1_1_debugger_html"><div class="ttname"><a href="../../d2/d03/namespace_gold_sprite_1_1_g_s_tools_1_1_debugger.html">GoldSprite.GSTools.Debugger</a></div><div class="ttdef"><b>Definition</b> <a href="../../de/d2a/_runtime_console_8cs_source.html#l00005">RuntimeConsole.cs:6</a></div></div>
+</div><!-- fragment --></div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="../../dir_84bbf7b3c7f28a5a18725745e1505219.html">Assets</a></li><li class="navelem"><a class="el" href="../../dir_f326df66ccbea49c5587d1ace07cb0db.html">GSTools</a></li><li class="navelem"><a class="el" href="../../dir_cdcc080e0ca16ebbd8074fbcfa76c2e2.html">GsTool_Debugger_V2.4.0_231011_alpha</a></li><li class="navelem"><a class="el" href="../../dir_bef7afcd618dd77e8c83ddd3006d5a0e.html">Samples</a></li><li class="navelem"><a class="el" href="../../dir_287385c42e3081965eb27d29ffcefd55.html">单行Pop浮窗日志用法</a></li><li class="navelem"><a class="el" href="../../d2/d20/_test_single_logger_window_8cs.html">TestSingleLoggerWindow.cs</a></li>
+    <li class="footer">制作者 <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8 </li>
+  </ul>
+</div>
+</body>
+</html>

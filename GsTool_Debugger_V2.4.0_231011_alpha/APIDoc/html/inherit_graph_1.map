@@ -1,0 +1,9 @@
+<map id="类继承关系图" name="类继承关系图">
+<area shape="rect" id="Node000000" title=" " alt="" coords="5,77,116,102"/>
+<area shape="rect" id="Node000001" href="$d8/d66/class_gold_sprite_1_1_g_s_tools_1_1_debugger_1_1_runtime_console.html" title="A console to display Unity&#39;s debug logs in&#45;game." alt="" coords="164,5,364,45"/>
+<area shape="poly" id="edge1_Node000000_Node000001" title=" " alt="" coords="114,70,199,43,201,48,116,75"/>
+<area shape="rect" id="Node000002" href="$d7/dee/class_gold_sprite_1_1_g_s_tools_1_1_debugger_1_1_single_logger_window.html" title=" " alt="" coords="164,69,364,109"/>
+<area shape="poly" id="edge2_Node000000_Node000002" title=" " alt="" coords="130,87,164,87,164,92,130,92"/>
+<area shape="rect" id="Node000003" href="$dc/d52/class_test_single_logger_window.html" title=" " alt="" coords="180,134,348,159"/>
+<area shape="poly" id="edge3_Node000000_Node000003" title=" " alt="" coords="115,104,165,119,212,131,210,136,163,124,113,109"/>
+</map>

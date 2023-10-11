@@ -1,0 +1,5 @@
+<map id="GoldSprite.GSTools.Debugger.RuntimeConsole.HandleLog" name="GoldSprite.GSTools.Debugger.RuntimeConsole.HandleLog">
+<area shape="rect" id="Node000001" title="Records a log from the log callback." alt="" coords="5,5,205,45"/>
+<area shape="rect" id="Node000002" href="$d8/d66/class_gold_sprite_1_1_g_s_tools_1_1_debugger_1_1_runtime_console.html#a1544a83632d0e67a01616eda1795edd8" title="Removes old logs that exceed the maximum number allowed." alt="" coords="253,5,472,45"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="205,23,240,23,240,28,205,28"/>
+</map>

@@ -3,6 +3,9 @@
 
 # GsTool_Debugger_V2.4.0.231011.alpha
 
+###开发日志链接(需要权限): 【金山文档】 GSTool_Dubugger开发记录
+- https://kdocs.cn/l/coh2uhMwNXDj
+
 ### 应用场景: 
 - 当你可能要在不同测试阶段查看不同的测试信息并需要动态筛选时可以使用此组件
 ### 现有功能: 

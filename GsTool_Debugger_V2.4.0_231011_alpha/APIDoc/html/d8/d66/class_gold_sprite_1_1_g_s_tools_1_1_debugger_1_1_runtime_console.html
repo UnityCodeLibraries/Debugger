@@ -1,0 +1,1016 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="zh">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.9.8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>TestDoxygen1: GoldSprite.GSTools.Debugger.RuntimeConsole类 参考</title>
+<link href="../../tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="../../jquery.js"></script>
+<script type="text/javascript" src="../../dynsections.js"></script>
+<link href="../../navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="../../resize.js"></script>
+<script type="text/javascript" src="../../navtreedata.js"></script>
+<script type="text/javascript" src="../../navtree.js"></script>
+<link href="../../search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="../../search/searchdata.js"></script>
+<script type="text/javascript" src="../../search/search.js"></script>
+<link href="../../doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectalign">
+   <div id="projectname">TestDoxygen1<span id="projectnumber">&#160;1.0.0</span>
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 制作者 Doxygen 1.9.8 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "../../search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="../../menudata.js"></script>
+<script type="text/javascript" src="../../menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('../../',true,false,'search.php','搜索');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(document).ready(function(){initNavTree('d8/d66/class_gold_sprite_1_1_g_s_tools_1_1_debugger_1_1_runtime_console.html','../../'); initResizable(); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">载入中...</div>
+<div class="SRStatus" id="Searching">搜索中...</div>
+<div class="SRStatus" id="NoMatches">未找到</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#nested-classes">类</a> &#124;
+<a href="#pub-attribs">Public 属性</a> &#124;
+<a href="#pri-methods">Private 成员函数</a> &#124;
+<a href="#pri-attribs">Private 属性</a> &#124;
+<a href="#pri-static-attribs">静态 Private 属性</a> &#124;
+<a href="../../d8/ddb/class_gold_sprite_1_1_g_s_tools_1_1_debugger_1_1_runtime_console-members.html">所有成员列表</a>  </div>
+  <div class="headertitle"><div class="title">GoldSprite.GSTools.Debugger.RuntimeConsole类 参考</div></div>
+</div><!--header-->
+<div class="contents">
+
+<p>A console to display Unity's debug logs in-game.  
+ <a href="../../d8/d66/class_gold_sprite_1_1_g_s_tools_1_1_debugger_1_1_runtime_console.html#details">更多...</a></p>
+<div class="dynheader">
+类 GoldSprite.GSTools.Debugger.RuntimeConsole 继承关系图:</div>
+<div class="dyncontent">
+<div class="center"><img src="../../d9/d26/class_gold_sprite_1_1_g_s_tools_1_1_debugger_1_1_runtime_console__inherit__graph.png" border="0" usemap="#a_gold_sprite_8_g_s_tools_8_debugger_8_runtime_console_inherit__map" alt="Inheritance graph"/></div>
+<map name="a_gold_sprite_8_g_s_tools_8_debugger_8_runtime_console_inherit__map" id="a_gold_sprite_8_g_s_tools_8_debugger_8_runtime_console_inherit__map">
+<area shape="rect" title="A console to display Unity&#39;s debug logs in&#45;game." alt="" coords="5,79,205,119"/>
+<area shape="rect" title=" " alt="" coords="50,5,161,31"/>
+<area shape="poly" title=" " alt="" coords="108,44,108,79,103,79,103,44"/>
+</map>
+<center><span class="legend">[<a target="top" href="../../graph_legend.html">图例</a>]</span></center></div>
+<div class="dynheader">
+GoldSprite.GSTools.Debugger.RuntimeConsole 的协作图:</div>
+<div class="dyncontent">
+<div class="center"><img src="../../d8/d79/class_gold_sprite_1_1_g_s_tools_1_1_debugger_1_1_runtime_console__coll__graph.png" border="0" usemap="#a_gold_sprite_8_g_s_tools_8_debugger_8_runtime_console_coll__map" alt="Collaboration graph"/></div>
+<map name="a_gold_sprite_8_g_s_tools_8_debugger_8_runtime_console_coll__map" id="a_gold_sprite_8_g_s_tools_8_debugger_8_runtime_console_coll__map">
+<area shape="rect" title="A console to display Unity&#39;s debug logs in&#45;game." alt="" coords="5,79,205,119"/>
+<area shape="rect" title=" " alt="" coords="50,5,161,31"/>
+<area shape="poly" title=" " alt="" coords="108,44,108,79,103,79,103,44"/>
+</map>
+<center><span class="legend">[<a target="top" href="../../graph_legend.html">图例</a>]</span></center></div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
+类</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d94/struct_gold_sprite_1_1_g_s_tools_1_1_debugger_1_1_runtime_console_1_1_log.html">Log</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
+Public 属性</h2></td></tr>
+<tr class="memitem:a6ec1d5b30b9d778098980a8a70e07c9b" id="r_a6ec1d5b30b9d778098980a8a70e07c9b"><td class="memItemLeft" align="right" valign="top">KeyCode&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d66/class_gold_sprite_1_1_g_s_tools_1_1_debugger_1_1_runtime_console.html#a6ec1d5b30b9d778098980a8a70e07c9b">toggleKey</a> = KeyCode.BackQuote</td></tr>
+<tr class="memdesc:a6ec1d5b30b9d778098980a8a70e07c9b"><td class="mdescLeft">&#160;</td><td class="mdescRight">The hotkey to show and hide the console window.  <br /></td></tr>
+<tr class="separator:a6ec1d5b30b9d778098980a8a70e07c9b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aef22d5a0121ec65c24852d70544a4df6" id="r_aef22d5a0121ec65c24852d70544a4df6"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d66/class_gold_sprite_1_1_g_s_tools_1_1_debugger_1_1_runtime_console.html#aef22d5a0121ec65c24852d70544a4df6">shakeToOpen</a> = true</td></tr>
+<tr class="memdesc:aef22d5a0121ec65c24852d70544a4df6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Whether to open the window by shaking the device (mobile-only).  <br /></td></tr>
+<tr class="separator:aef22d5a0121ec65c24852d70544a4df6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a54d6ac577ed6bfd166170dabc5b2701d" id="r_a54d6ac577ed6bfd166170dabc5b2701d"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d66/class_gold_sprite_1_1_g_s_tools_1_1_debugger_1_1_runtime_console.html#a54d6ac577ed6bfd166170dabc5b2701d">shakeAcceleration</a> = 3f</td></tr>
+<tr class="memdesc:a54d6ac577ed6bfd166170dabc5b2701d"><td class="mdescLeft">&#160;</td><td class="mdescRight">The (squared) acceleration above which the window should open.  <br /></td></tr>
+<tr class="separator:a54d6ac577ed6bfd166170dabc5b2701d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aca18ae140f9f10b2c0d6debf62ad9047" id="r_aca18ae140f9f10b2c0d6debf62ad9047"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d66/class_gold_sprite_1_1_g_s_tools_1_1_debugger_1_1_runtime_console.html#aca18ae140f9f10b2c0d6debf62ad9047">restrictLogCount</a> = false</td></tr>
+<tr class="memdesc:aca18ae140f9f10b2c0d6debf62ad9047"><td class="mdescLeft">&#160;</td><td class="mdescRight">Whether to only keep a certain number of logs.  <br /></td></tr>
+<tr class="separator:aca18ae140f9f10b2c0d6debf62ad9047"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a00d7458923e3bc28172273e8d6db7fa2" id="r_a00d7458923e3bc28172273e8d6db7fa2"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d66/class_gold_sprite_1_1_g_s_tools_1_1_debugger_1_1_runtime_console.html#a00d7458923e3bc28172273e8d6db7fa2">maxLogs</a> = 1000</td></tr>
+<tr class="memdesc:a00d7458923e3bc28172273e8d6db7fa2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Number of logs to keep before removing old ones.  <br /></td></tr>
+<tr class="separator:a00d7458923e3bc28172273e8d6db7fa2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-methods" name="pri-methods"></a>
+Private 成员函数</h2></td></tr>
+<tr class="memitem:ab3d31a3cf7155fca71943a2a28c1fbe5" id="r_ab3d31a3cf7155fca71943a2a28c1fbe5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d66/class_gold_sprite_1_1_g_s_tools_1_1_debugger_1_1_runtime_console.html#ab3d31a3cf7155fca71943a2a28c1fbe5">OnEnable</a> ()</td></tr>
+<tr class="separator:ab3d31a3cf7155fca71943a2a28c1fbe5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a30c71d09e4e9e90ba19e1293ef00bf38" id="r_a30c71d09e4e9e90ba19e1293ef00bf38"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d66/class_gold_sprite_1_1_g_s_tools_1_1_debugger_1_1_runtime_console.html#a30c71d09e4e9e90ba19e1293ef00bf38">OnDisable</a> ()</td></tr>
+<tr class="separator:a30c71d09e4e9e90ba19e1293ef00bf38"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9bc5a5067f6811eb0cbf312d0c49d494" id="r_a9bc5a5067f6811eb0cbf312d0c49d494"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d66/class_gold_sprite_1_1_g_s_tools_1_1_debugger_1_1_runtime_console.html#a9bc5a5067f6811eb0cbf312d0c49d494">Update</a> ()</td></tr>
+<tr class="separator:a9bc5a5067f6811eb0cbf312d0c49d494"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae049602170a34e0aca60e964028ec3b2" id="r_ae049602170a34e0aca60e964028ec3b2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d66/class_gold_sprite_1_1_g_s_tools_1_1_debugger_1_1_runtime_console.html#ae049602170a34e0aca60e964028ec3b2">OnGUI</a> ()</td></tr>
+<tr class="separator:ae049602170a34e0aca60e964028ec3b2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa8b3ac74279835b7a3a77cb5a43900ef" id="r_aa8b3ac74279835b7a3a77cb5a43900ef"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d66/class_gold_sprite_1_1_g_s_tools_1_1_debugger_1_1_runtime_console.html#aa8b3ac74279835b7a3a77cb5a43900ef">DrawConsoleWindow</a> (int windowID)</td></tr>
+<tr class="memdesc:aa8b3ac74279835b7a3a77cb5a43900ef"><td class="mdescLeft">&#160;</td><td class="mdescRight">Displays a window that lists the recorded logs.  <br /></td></tr>
+<tr class="separator:aa8b3ac74279835b7a3a77cb5a43900ef"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5001a2c9354b4acb0bc0262939e38bf8" id="r_a5001a2c9354b4acb0bc0262939e38bf8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d66/class_gold_sprite_1_1_g_s_tools_1_1_debugger_1_1_runtime_console.html#a5001a2c9354b4acb0bc0262939e38bf8">DrawLogsList</a> ()</td></tr>
+<tr class="memdesc:a5001a2c9354b4acb0bc0262939e38bf8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Displays a scrollable list of logs.  <br /></td></tr>
+<tr class="separator:a5001a2c9354b4acb0bc0262939e38bf8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8168db4ae172ec689a40e4f289a5ab42" id="r_a8168db4ae172ec689a40e4f289a5ab42"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d66/class_gold_sprite_1_1_g_s_tools_1_1_debugger_1_1_runtime_console.html#a8168db4ae172ec689a40e4f289a5ab42">DrawToolbar</a> ()</td></tr>
+<tr class="memdesc:a8168db4ae172ec689a40e4f289a5ab42"><td class="mdescLeft">&#160;</td><td class="mdescRight">Displays options for filtering and changing the logs list.  <br /></td></tr>
+<tr class="separator:a8168db4ae172ec689a40e4f289a5ab42"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afcf96aca6fcf7f2cbe7fcb6c166cd695" id="r_afcf96aca6fcf7f2cbe7fcb6c166cd695"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d66/class_gold_sprite_1_1_g_s_tools_1_1_debugger_1_1_runtime_console.html#afcf96aca6fcf7f2cbe7fcb6c166cd695">HandleLog</a> (string message, string stackTrace, LogType type)</td></tr>
+<tr class="memdesc:afcf96aca6fcf7f2cbe7fcb6c166cd695"><td class="mdescLeft">&#160;</td><td class="mdescRight">Records a log from the log callback.  <br /></td></tr>
+<tr class="separator:afcf96aca6fcf7f2cbe7fcb6c166cd695"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1544a83632d0e67a01616eda1795edd8" id="r_a1544a83632d0e67a01616eda1795edd8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d66/class_gold_sprite_1_1_g_s_tools_1_1_debugger_1_1_runtime_console.html#a1544a83632d0e67a01616eda1795edd8">TrimExcessLogs</a> ()</td></tr>
+<tr class="memdesc:a1544a83632d0e67a01616eda1795edd8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Removes old logs that exceed the maximum number allowed.  <br /></td></tr>
+<tr class="separator:a1544a83632d0e67a01616eda1795edd8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
+Private 属性</h2></td></tr>
+<tr class="memitem:adedf3fe6c6fcd15a64827d62015524d7" id="r_adedf3fe6c6fcd15a64827d62015524d7"><td class="memItemLeft" align="right" valign="top">readonly List&lt; <a class="el" href="../../d3/d94/struct_gold_sprite_1_1_g_s_tools_1_1_debugger_1_1_runtime_console_1_1_log.html">Log</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d66/class_gold_sprite_1_1_g_s_tools_1_1_debugger_1_1_runtime_console.html#adedf3fe6c6fcd15a64827d62015524d7">logs</a> = new List&lt;<a class="el" href="../../d3/d94/struct_gold_sprite_1_1_g_s_tools_1_1_debugger_1_1_runtime_console_1_1_log.html">Log</a>&gt;()</td></tr>
+<tr class="separator:adedf3fe6c6fcd15a64827d62015524d7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae91e9dc911b55f657a7ce49715f3ba62" id="r_ae91e9dc911b55f657a7ce49715f3ba62"><td class="memItemLeft" align="right" valign="top">Vector2&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d66/class_gold_sprite_1_1_g_s_tools_1_1_debugger_1_1_runtime_console.html#ae91e9dc911b55f657a7ce49715f3ba62">scrollPosition</a></td></tr>
+<tr class="separator:ae91e9dc911b55f657a7ce49715f3ba62"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3acd9f1a599bc44fb32732a2a8cfe2a2" id="r_a3acd9f1a599bc44fb32732a2a8cfe2a2"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d66/class_gold_sprite_1_1_g_s_tools_1_1_debugger_1_1_runtime_console.html#a3acd9f1a599bc44fb32732a2a8cfe2a2">visible</a></td></tr>
+<tr class="separator:a3acd9f1a599bc44fb32732a2a8cfe2a2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac17c8891cca0a1ae22185540130d624f" id="r_ac17c8891cca0a1ae22185540130d624f"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d66/class_gold_sprite_1_1_g_s_tools_1_1_debugger_1_1_runtime_console.html#ac17c8891cca0a1ae22185540130d624f">collapse</a></td></tr>
+<tr class="separator:ac17c8891cca0a1ae22185540130d624f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0466cb0d09ea8b1d3b2a2a35e8ad7212" id="r_a0466cb0d09ea8b1d3b2a2a35e8ad7212"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d66/class_gold_sprite_1_1_g_s_tools_1_1_debugger_1_1_runtime_console.html#a0466cb0d09ea8b1d3b2a2a35e8ad7212">isScrollBottom</a></td></tr>
+<tr class="separator:a0466cb0d09ea8b1d3b2a2a35e8ad7212"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aca977788d5a02e72120b9d1ce618fee4" id="r_aca977788d5a02e72120b9d1ce618fee4"><td class="memItemLeft" align="right" valign="top">readonly Rect&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d66/class_gold_sprite_1_1_g_s_tools_1_1_debugger_1_1_runtime_console.html#aca977788d5a02e72120b9d1ce618fee4">titleBarRect</a> = new Rect(0, 0, 10000, 20)</td></tr>
+<tr class="separator:aca977788d5a02e72120b9d1ce618fee4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af285fc90d7548573575d32928866ef4c" id="r_af285fc90d7548573575d32928866ef4c"><td class="memItemLeft" align="right" valign="top">Rect&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d66/class_gold_sprite_1_1_g_s_tools_1_1_debugger_1_1_runtime_console.html#af285fc90d7548573575d32928866ef4c">windowRect</a> = new Rect(<a class="el" href="../../d8/d66/class_gold_sprite_1_1_g_s_tools_1_1_debugger_1_1_runtime_console.html#a7a2de5215c26372eeab073504963e622">margin</a>, <a class="el" href="../../d8/d66/class_gold_sprite_1_1_g_s_tools_1_1_debugger_1_1_runtime_console.html#a7a2de5215c26372eeab073504963e622">margin</a>, Screen.width - (<a class="el" href="../../d8/d66/class_gold_sprite_1_1_g_s_tools_1_1_debugger_1_1_runtime_console.html#a7a2de5215c26372eeab073504963e622">margin</a> * 2), Screen.height - (<a class="el" href="../../d8/d66/class_gold_sprite_1_1_g_s_tools_1_1_debugger_1_1_runtime_console.html#a7a2de5215c26372eeab073504963e622">margin</a> * 2))</td></tr>
+<tr class="separator:af285fc90d7548573575d32928866ef4c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-static-attribs" name="pri-static-attribs"></a>
+静态 Private 属性</h2></td></tr>
+<tr class="memitem:a199e80518e78729941a8ed13574d9d20" id="r_a199e80518e78729941a8ed13574d9d20"><td class="memItemLeft" align="right" valign="top">static readonly Dictionary&lt; LogType, Color &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d66/class_gold_sprite_1_1_g_s_tools_1_1_debugger_1_1_runtime_console.html#a199e80518e78729941a8ed13574d9d20">logTypeColors</a></td></tr>
+<tr class="separator:a199e80518e78729941a8ed13574d9d20"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1c38bf98fb980e27448d7600df5a946d" id="r_a1c38bf98fb980e27448d7600df5a946d"><td class="memItemLeft" align="right" valign="top">const string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d66/class_gold_sprite_1_1_g_s_tools_1_1_debugger_1_1_runtime_console.html#a1c38bf98fb980e27448d7600df5a946d">windowTitle</a> = &quot;Console&quot;</td></tr>
+<tr class="separator:a1c38bf98fb980e27448d7600df5a946d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7a2de5215c26372eeab073504963e622" id="r_a7a2de5215c26372eeab073504963e622"><td class="memItemLeft" align="right" valign="top">const int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d66/class_gold_sprite_1_1_g_s_tools_1_1_debugger_1_1_runtime_console.html#a7a2de5215c26372eeab073504963e622">margin</a> = 20</td></tr>
+<tr class="separator:a7a2de5215c26372eeab073504963e622"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab6f16bd0dc12e3fdbca88f6c7b52d7cf" id="r_ab6f16bd0dc12e3fdbca88f6c7b52d7cf"><td class="memItemLeft" align="right" valign="top">static readonly GUIContent&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d66/class_gold_sprite_1_1_g_s_tools_1_1_debugger_1_1_runtime_console.html#ab6f16bd0dc12e3fdbca88f6c7b52d7cf">clearLabel</a> = new GUIContent(&quot;Clear&quot;, &quot;Clear the contents of the console.&quot;)</td></tr>
+<tr class="separator:ab6f16bd0dc12e3fdbca88f6c7b52d7cf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5871e20ff4b585018e683139a155137b" id="r_a5871e20ff4b585018e683139a155137b"><td class="memItemLeft" align="right" valign="top">static readonly GUIContent&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d66/class_gold_sprite_1_1_g_s_tools_1_1_debugger_1_1_runtime_console.html#a5871e20ff4b585018e683139a155137b">collapseLabel</a> = new GUIContent(&quot;Collapse&quot;, &quot;Hide repeated messages.&quot;)</td></tr>
+<tr class="separator:a5871e20ff4b585018e683139a155137b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">详细描述</h2>
+<div class="textblock"><p>A console to display Unity's debug logs in-game. </p>
+
+<p class="definition">在文件 <a class="el" href="../../de/d2a/_runtime_console_8cs_source.html">RuntimeConsole.cs</a> 第 <a class="el" href="../../de/d2a/_runtime_console_8cs_source.html#l00011">11</a> 行定义.</p>
+</div><h2 class="groupheader">成员函数说明</h2>
+<a id="aa8b3ac74279835b7a3a77cb5a43900ef" name="aa8b3ac74279835b7a3a77cb5a43900ef"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa8b3ac74279835b7a3a77cb5a43900ef">&#9670;&#160;</a></span>DrawConsoleWindow()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void GoldSprite.GSTools.Debugger.RuntimeConsole.DrawConsoleWindow </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>windowID</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Displays a window that lists the recorded logs. </p>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">windowID</td><td>Window ID.</td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p class="definition">在文件 <a class="el" href="../../de/d2a/_runtime_console_8cs_source.html">RuntimeConsole.cs</a> 第 <a class="el" href="../../de/d2a/_runtime_console_8cs_source.html#l00148">148</a> 行定义.</p>
+<div class="dynheader">
+函数调用图:</div>
+<div class="dyncontent">
+<div class="center"><img src="../../d8/d66/class_gold_sprite_1_1_g_s_tools_1_1_debugger_1_1_runtime_console_aa8b3ac74279835b7a3a77cb5a43900ef_cgraph.png" border="0" usemap="#ad8/d66/class_gold_sprite_1_1_g_s_tools_1_1_debugger_1_1_runtime_console_aa8b3ac74279835b7a3a77cb5a43900ef_cgraph" alt=""/></div>
+<map name="ad8/d66/class_gold_sprite_1_1_g_s_tools_1_1_debugger_1_1_runtime_console_aa8b3ac74279835b7a3a77cb5a43900ef_cgraph" id="ad8/d66/class_gold_sprite_1_1_g_s_tools_1_1_debugger_1_1_runtime_console_aa8b3ac74279835b7a3a77cb5a43900ef_cgraph">
+<area shape="rect" title="Displays a window that lists the recorded logs." alt="" coords="5,37,248,77"/>
+<area shape="rect" href="../../d8/d66/class_gold_sprite_1_1_g_s_tools_1_1_debugger_1_1_runtime_console.html#a5001a2c9354b4acb0bc0262939e38bf8" title="Displays a scrollable list of logs." alt="" coords="296,5,496,45"/>
+<area shape="poly" title=" " alt="" coords="248,40,282,36,282,41,248,46"/>
+<area shape="rect" href="../../d8/d66/class_gold_sprite_1_1_g_s_tools_1_1_debugger_1_1_runtime_console.html#a8168db4ae172ec689a40e4f289a5ab42" title="Displays options for filtering and changing the logs list." alt="" coords="296,69,496,109"/>
+<area shape="poly" title=" " alt="" coords="248,69,282,73,282,78,248,74"/>
+</map>
+</div>
+<div class="dynheader">
+这是这个函数的调用关系图:</div>
+<div class="dyncontent">
+<div class="center"><img src="../../d8/d66/class_gold_sprite_1_1_g_s_tools_1_1_debugger_1_1_runtime_console_aa8b3ac74279835b7a3a77cb5a43900ef_icgraph.png" border="0" usemap="#ad8/d66/class_gold_sprite_1_1_g_s_tools_1_1_debugger_1_1_runtime_console_aa8b3ac74279835b7a3a77cb5a43900ef_icgraph" alt=""/></div>
+<map name="ad8/d66/class_gold_sprite_1_1_g_s_tools_1_1_debugger_1_1_runtime_console_aa8b3ac74279835b7a3a77cb5a43900ef_icgraph" id="ad8/d66/class_gold_sprite_1_1_g_s_tools_1_1_debugger_1_1_runtime_console_aa8b3ac74279835b7a3a77cb5a43900ef_icgraph">
+<area shape="rect" title="Displays a window that lists the recorded logs." alt="" coords="253,5,496,45"/>
+<area shape="rect" href="../../d8/d66/class_gold_sprite_1_1_g_s_tools_1_1_debugger_1_1_runtime_console.html#ae049602170a34e0aca60e964028ec3b2" title=" " alt="" coords="5,5,205,45"/>
+<area shape="poly" title=" " alt="" coords="240,28,206,28,206,23,240,23"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a5001a2c9354b4acb0bc0262939e38bf8" name="a5001a2c9354b4acb0bc0262939e38bf8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5001a2c9354b4acb0bc0262939e38bf8">&#9670;&#160;</a></span>DrawLogsList()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void GoldSprite.GSTools.Debugger.RuntimeConsole.DrawLogsList </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Displays a scrollable list of logs. </p>
+
+<p class="definition">在文件 <a class="el" href="../../de/d2a/_runtime_console_8cs_source.html">RuntimeConsole.cs</a> 第 <a class="el" href="../../de/d2a/_runtime_console_8cs_source.html#l00160">160</a> 行定义.</p>
+<div class="dynheader">
+这是这个函数的调用关系图:</div>
+<div class="dyncontent">
+<div class="center"><img src="../../d8/d66/class_gold_sprite_1_1_g_s_tools_1_1_debugger_1_1_runtime_console_a5001a2c9354b4acb0bc0262939e38bf8_icgraph.png" border="0" usemap="#ad8/d66/class_gold_sprite_1_1_g_s_tools_1_1_debugger_1_1_runtime_console_a5001a2c9354b4acb0bc0262939e38bf8_icgraph" alt=""/></div>
+<map name="ad8/d66/class_gold_sprite_1_1_g_s_tools_1_1_debugger_1_1_runtime_console_a5001a2c9354b4acb0bc0262939e38bf8_icgraph" id="ad8/d66/class_gold_sprite_1_1_g_s_tools_1_1_debugger_1_1_runtime_console_a5001a2c9354b4acb0bc0262939e38bf8_icgraph">
+<area shape="rect" title="Displays a scrollable list of logs." alt="" coords="544,5,744,45"/>
+<area shape="rect" href="../../d8/d66/class_gold_sprite_1_1_g_s_tools_1_1_debugger_1_1_runtime_console.html#aa8b3ac74279835b7a3a77cb5a43900ef" title="Displays a window that lists the recorded logs." alt="" coords="253,5,496,45"/>
+<area shape="poly" title=" " alt="" coords="530,28,496,28,496,23,530,23"/>
+<area shape="rect" href="../../d8/d66/class_gold_sprite_1_1_g_s_tools_1_1_debugger_1_1_runtime_console.html#ae049602170a34e0aca60e964028ec3b2" title=" " alt="" coords="5,5,205,45"/>
+<area shape="poly" title=" " alt="" coords="240,28,206,28,206,23,240,23"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a8168db4ae172ec689a40e4f289a5ab42" name="a8168db4ae172ec689a40e4f289a5ab42"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8168db4ae172ec689a40e4f289a5ab42">&#9670;&#160;</a></span>DrawToolbar()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void GoldSprite.GSTools.Debugger.RuntimeConsole.DrawToolbar </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Displays options for filtering and changing the logs list. </p>
+
+<p class="definition">在文件 <a class="el" href="../../de/d2a/_runtime_console_8cs_source.html">RuntimeConsole.cs</a> 第 <a class="el" href="../../de/d2a/_runtime_console_8cs_source.html#l00201">201</a> 行定义.</p>
+<div class="dynheader">
+这是这个函数的调用关系图:</div>
+<div class="dyncontent">
+<div class="center"><img src="../../d8/d66/class_gold_sprite_1_1_g_s_tools_1_1_debugger_1_1_runtime_console_a8168db4ae172ec689a40e4f289a5ab42_icgraph.png" border="0" usemap="#ad8/d66/class_gold_sprite_1_1_g_s_tools_1_1_debugger_1_1_runtime_console_a8168db4ae172ec689a40e4f289a5ab42_icgraph" alt=""/></div>
+<map name="ad8/d66/class_gold_sprite_1_1_g_s_tools_1_1_debugger_1_1_runtime_console_a8168db4ae172ec689a40e4f289a5ab42_icgraph" id="ad8/d66/class_gold_sprite_1_1_g_s_tools_1_1_debugger_1_1_runtime_console_a8168db4ae172ec689a40e4f289a5ab42_icgraph">
+<area shape="rect" title="Displays options for filtering and changing the logs list." alt="" coords="544,5,744,45"/>
+<area shape="rect" href="../../d8/d66/class_gold_sprite_1_1_g_s_tools_1_1_debugger_1_1_runtime_console.html#aa8b3ac74279835b7a3a77cb5a43900ef" title="Displays a window that lists the recorded logs." alt="" coords="253,5,496,45"/>
+<area shape="poly" title=" " alt="" coords="530,28,496,28,496,23,530,23"/>
+<area shape="rect" href="../../d8/d66/class_gold_sprite_1_1_g_s_tools_1_1_debugger_1_1_runtime_console.html#ae049602170a34e0aca60e964028ec3b2" title=" " alt="" coords="5,5,205,45"/>
+<area shape="poly" title=" " alt="" coords="240,28,206,28,206,23,240,23"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="afcf96aca6fcf7f2cbe7fcb6c166cd695" name="afcf96aca6fcf7f2cbe7fcb6c166cd695"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afcf96aca6fcf7f2cbe7fcb6c166cd695">&#9670;&#160;</a></span>HandleLog()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void GoldSprite.GSTools.Debugger.RuntimeConsole.HandleLog </td>
+          <td>(</td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>message</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>stackTrace</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">LogType&#160;</td>
+          <td class="paramname"><em>type</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Records a log from the log callback. </p>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">message</td><td>Message.</td></tr>
+    <tr><td class="paramname">stackTrace</td><td>Trace of where the message came from.</td></tr>
+    <tr><td class="paramname">type</td><td>Type of message (error, exception, warning, assert).</td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p class="definition">在文件 <a class="el" href="../../de/d2a/_runtime_console_8cs_source.html">RuntimeConsole.cs</a> 第 <a class="el" href="../../de/d2a/_runtime_console_8cs_source.html#l00222">222</a> 行定义.</p>
+<div class="dynheader">
+函数调用图:</div>
+<div class="dyncontent">
+<div class="center"><img src="../../d8/d66/class_gold_sprite_1_1_g_s_tools_1_1_debugger_1_1_runtime_console_afcf96aca6fcf7f2cbe7fcb6c166cd695_cgraph.png" border="0" usemap="#ad8/d66/class_gold_sprite_1_1_g_s_tools_1_1_debugger_1_1_runtime_console_afcf96aca6fcf7f2cbe7fcb6c166cd695_cgraph" alt=""/></div>
+<map name="ad8/d66/class_gold_sprite_1_1_g_s_tools_1_1_debugger_1_1_runtime_console_afcf96aca6fcf7f2cbe7fcb6c166cd695_cgraph" id="ad8/d66/class_gold_sprite_1_1_g_s_tools_1_1_debugger_1_1_runtime_console_afcf96aca6fcf7f2cbe7fcb6c166cd695_cgraph">
+<area shape="rect" title="Records a log from the log callback." alt="" coords="5,5,205,45"/>
+<area shape="rect" href="../../d8/d66/class_gold_sprite_1_1_g_s_tools_1_1_debugger_1_1_runtime_console.html#a1544a83632d0e67a01616eda1795edd8" title="Removes old logs that exceed the maximum number allowed." alt="" coords="253,5,472,45"/>
+<area shape="poly" title=" " alt="" coords="205,23,240,23,240,28,205,28"/>
+</map>
+</div>
+<div class="dynheader">
+这是这个函数的调用关系图:</div>
+<div class="dyncontent">
+<div class="center"><img src="../../d8/d66/class_gold_sprite_1_1_g_s_tools_1_1_debugger_1_1_runtime_console_afcf96aca6fcf7f2cbe7fcb6c166cd695_icgraph.png" border="0" usemap="#ad8/d66/class_gold_sprite_1_1_g_s_tools_1_1_debugger_1_1_runtime_console_afcf96aca6fcf7f2cbe7fcb6c166cd695_icgraph" alt=""/></div>
+<map name="ad8/d66/class_gold_sprite_1_1_g_s_tools_1_1_debugger_1_1_runtime_console_afcf96aca6fcf7f2cbe7fcb6c166cd695_icgraph" id="ad8/d66/class_gold_sprite_1_1_g_s_tools_1_1_debugger_1_1_runtime_console_afcf96aca6fcf7f2cbe7fcb6c166cd695_icgraph">
+<area shape="rect" title="Records a log from the log callback." alt="" coords="253,37,453,77"/>
+<area shape="rect" href="../../d8/d66/class_gold_sprite_1_1_g_s_tools_1_1_debugger_1_1_runtime_console.html#a30c71d09e4e9e90ba19e1293ef00bf38" title=" " alt="" coords="5,5,205,45"/>
+<area shape="poly" title=" " alt="" coords="240,45,205,41,206,36,240,40"/>
+<area shape="rect" href="../../d8/d66/class_gold_sprite_1_1_g_s_tools_1_1_debugger_1_1_runtime_console.html#ab3d31a3cf7155fca71943a2a28c1fbe5" title=" " alt="" coords="5,69,205,109"/>
+<area shape="poly" title=" " alt="" coords="240,75,206,79,205,74,240,69"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a30c71d09e4e9e90ba19e1293ef00bf38" name="a30c71d09e4e9e90ba19e1293ef00bf38"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a30c71d09e4e9e90ba19e1293ef00bf38">&#9670;&#160;</a></span>OnDisable()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void GoldSprite.GSTools.Debugger.RuntimeConsole.OnDisable </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">在文件 <a class="el" href="../../de/d2a/_runtime_console_8cs_source.html">RuntimeConsole.cs</a> 第 <a class="el" href="../../de/d2a/_runtime_console_8cs_source.html#l00112">112</a> 行定义.</p>
+<div class="dynheader">
+函数调用图:</div>
+<div class="dyncontent">
+<div class="center"><img src="../../d8/d66/class_gold_sprite_1_1_g_s_tools_1_1_debugger_1_1_runtime_console_a30c71d09e4e9e90ba19e1293ef00bf38_cgraph.png" border="0" usemap="#ad8/d66/class_gold_sprite_1_1_g_s_tools_1_1_debugger_1_1_runtime_console_a30c71d09e4e9e90ba19e1293ef00bf38_cgraph" alt=""/></div>
+<map name="ad8/d66/class_gold_sprite_1_1_g_s_tools_1_1_debugger_1_1_runtime_console_a30c71d09e4e9e90ba19e1293ef00bf38_cgraph" id="ad8/d66/class_gold_sprite_1_1_g_s_tools_1_1_debugger_1_1_runtime_console_a30c71d09e4e9e90ba19e1293ef00bf38_cgraph">
+<area shape="rect" title=" " alt="" coords="5,5,205,45"/>
+<area shape="rect" href="../../d8/d66/class_gold_sprite_1_1_g_s_tools_1_1_debugger_1_1_runtime_console.html#afcf96aca6fcf7f2cbe7fcb6c166cd695" title="Records a log from the log callback." alt="" coords="253,5,453,45"/>
+<area shape="poly" title=" " alt="" coords="205,23,240,23,240,28,205,28"/>
+<area shape="rect" href="../../d8/d66/class_gold_sprite_1_1_g_s_tools_1_1_debugger_1_1_runtime_console.html#a1544a83632d0e67a01616eda1795edd8" title="Removes old logs that exceed the maximum number allowed." alt="" coords="501,5,720,45"/>
+<area shape="poly" title=" " alt="" coords="453,23,488,23,488,28,453,28"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="ab3d31a3cf7155fca71943a2a28c1fbe5" name="ab3d31a3cf7155fca71943a2a28c1fbe5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab3d31a3cf7155fca71943a2a28c1fbe5">&#9670;&#160;</a></span>OnEnable()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void GoldSprite.GSTools.Debugger.RuntimeConsole.OnEnable </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">在文件 <a class="el" href="../../de/d2a/_runtime_console_8cs_source.html">RuntimeConsole.cs</a> 第 <a class="el" href="../../de/d2a/_runtime_console_8cs_source.html#l00103">103</a> 行定义.</p>
+<div class="dynheader">
+函数调用图:</div>
+<div class="dyncontent">
+<div class="center"><img src="../../d8/d66/class_gold_sprite_1_1_g_s_tools_1_1_debugger_1_1_runtime_console_ab3d31a3cf7155fca71943a2a28c1fbe5_cgraph.png" border="0" usemap="#ad8/d66/class_gold_sprite_1_1_g_s_tools_1_1_debugger_1_1_runtime_console_ab3d31a3cf7155fca71943a2a28c1fbe5_cgraph" alt=""/></div>
+<map name="ad8/d66/class_gold_sprite_1_1_g_s_tools_1_1_debugger_1_1_runtime_console_ab3d31a3cf7155fca71943a2a28c1fbe5_cgraph" id="ad8/d66/class_gold_sprite_1_1_g_s_tools_1_1_debugger_1_1_runtime_console_ab3d31a3cf7155fca71943a2a28c1fbe5_cgraph">
+<area shape="rect" title=" " alt="" coords="5,5,205,45"/>
+<area shape="rect" href="../../d8/d66/class_gold_sprite_1_1_g_s_tools_1_1_debugger_1_1_runtime_console.html#afcf96aca6fcf7f2cbe7fcb6c166cd695" title="Records a log from the log callback." alt="" coords="253,5,453,45"/>
+<area shape="poly" title=" " alt="" coords="205,23,240,23,240,28,205,28"/>
+<area shape="rect" href="../../d8/d66/class_gold_sprite_1_1_g_s_tools_1_1_debugger_1_1_runtime_console.html#a1544a83632d0e67a01616eda1795edd8" title="Removes old logs that exceed the maximum number allowed." alt="" coords="501,5,720,45"/>
+<area shape="poly" title=" " alt="" coords="453,23,488,23,488,28,453,28"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="ae049602170a34e0aca60e964028ec3b2" name="ae049602170a34e0aca60e964028ec3b2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae049602170a34e0aca60e964028ec3b2">&#9670;&#160;</a></span>OnGUI()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void GoldSprite.GSTools.Debugger.RuntimeConsole.OnGUI </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">在文件 <a class="el" href="../../de/d2a/_runtime_console_8cs_source.html">RuntimeConsole.cs</a> 第 <a class="el" href="../../de/d2a/_runtime_console_8cs_source.html#l00134">134</a> 行定义.</p>
+<div class="dynheader">
+函数调用图:</div>
+<div class="dyncontent">
+<div class="center"><img src="../../d8/d66/class_gold_sprite_1_1_g_s_tools_1_1_debugger_1_1_runtime_console_ae049602170a34e0aca60e964028ec3b2_cgraph.png" border="0" usemap="#ad8/d66/class_gold_sprite_1_1_g_s_tools_1_1_debugger_1_1_runtime_console_ae049602170a34e0aca60e964028ec3b2_cgraph" alt=""/></div>
+<map name="ad8/d66/class_gold_sprite_1_1_g_s_tools_1_1_debugger_1_1_runtime_console_ae049602170a34e0aca60e964028ec3b2_cgraph" id="ad8/d66/class_gold_sprite_1_1_g_s_tools_1_1_debugger_1_1_runtime_console_ae049602170a34e0aca60e964028ec3b2_cgraph">
+<area shape="rect" title=" " alt="" coords="5,37,205,77"/>
+<area shape="rect" href="../../d8/d66/class_gold_sprite_1_1_g_s_tools_1_1_debugger_1_1_runtime_console.html#aa8b3ac74279835b7a3a77cb5a43900ef" title="Displays a window that lists the recorded logs." alt="" coords="253,37,496,77"/>
+<area shape="poly" title=" " alt="" coords="206,55,240,55,240,60,206,60"/>
+<area shape="rect" href="../../d8/d66/class_gold_sprite_1_1_g_s_tools_1_1_debugger_1_1_runtime_console.html#a5001a2c9354b4acb0bc0262939e38bf8" title="Displays a scrollable list of logs." alt="" coords="544,5,744,45"/>
+<area shape="poly" title=" " alt="" coords="496,40,530,36,530,41,496,46"/>
+<area shape="rect" href="../../d8/d66/class_gold_sprite_1_1_g_s_tools_1_1_debugger_1_1_runtime_console.html#a8168db4ae172ec689a40e4f289a5ab42" title="Displays options for filtering and changing the logs list." alt="" coords="544,69,744,109"/>
+<area shape="poly" title=" " alt="" coords="496,69,530,73,530,78,496,74"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a1544a83632d0e67a01616eda1795edd8" name="a1544a83632d0e67a01616eda1795edd8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1544a83632d0e67a01616eda1795edd8">&#9670;&#160;</a></span>TrimExcessLogs()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void GoldSprite.GSTools.Debugger.RuntimeConsole.TrimExcessLogs </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Removes old logs that exceed the maximum number allowed. </p>
+
+<p class="definition">在文件 <a class="el" href="../../de/d2a/_runtime_console_8cs_source.html">RuntimeConsole.cs</a> 第 <a class="el" href="../../de/d2a/_runtime_console_8cs_source.html#l00237">237</a> 行定义.</p>
+<div class="dynheader">
+这是这个函数的调用关系图:</div>
+<div class="dyncontent">
+<div class="center"><img src="../../d8/d66/class_gold_sprite_1_1_g_s_tools_1_1_debugger_1_1_runtime_console_a1544a83632d0e67a01616eda1795edd8_icgraph.png" border="0" usemap="#ad8/d66/class_gold_sprite_1_1_g_s_tools_1_1_debugger_1_1_runtime_console_a1544a83632d0e67a01616eda1795edd8_icgraph" alt=""/></div>
+<map name="ad8/d66/class_gold_sprite_1_1_g_s_tools_1_1_debugger_1_1_runtime_console_a1544a83632d0e67a01616eda1795edd8_icgraph" id="ad8/d66/class_gold_sprite_1_1_g_s_tools_1_1_debugger_1_1_runtime_console_a1544a83632d0e67a01616eda1795edd8_icgraph">
+<area shape="rect" title="Removes old logs that exceed the maximum number allowed." alt="" coords="501,37,720,77"/>
+<area shape="rect" href="../../d8/d66/class_gold_sprite_1_1_g_s_tools_1_1_debugger_1_1_runtime_console.html#afcf96aca6fcf7f2cbe7fcb6c166cd695" title="Records a log from the log callback." alt="" coords="253,37,453,77"/>
+<area shape="poly" title=" " alt="" coords="488,60,454,60,454,55,488,55"/>
+<area shape="rect" href="../../d8/d66/class_gold_sprite_1_1_g_s_tools_1_1_debugger_1_1_runtime_console.html#a30c71d09e4e9e90ba19e1293ef00bf38" title=" " alt="" coords="5,5,205,45"/>
+<area shape="poly" title=" " alt="" coords="240,45,205,41,206,36,240,40"/>
+<area shape="rect" href="../../d8/d66/class_gold_sprite_1_1_g_s_tools_1_1_debugger_1_1_runtime_console.html#ab3d31a3cf7155fca71943a2a28c1fbe5" title=" " alt="" coords="5,69,205,109"/>
+<area shape="poly" title=" " alt="" coords="240,75,206,79,205,74,240,69"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a9bc5a5067f6811eb0cbf312d0c49d494" name="a9bc5a5067f6811eb0cbf312d0c49d494"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9bc5a5067f6811eb0cbf312d0c49d494">&#9670;&#160;</a></span>Update()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void GoldSprite.GSTools.Debugger.RuntimeConsole.Update </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">在文件 <a class="el" href="../../de/d2a/_runtime_console_8cs_source.html">RuntimeConsole.cs</a> 第 <a class="el" href="../../de/d2a/_runtime_console_8cs_source.html#l00121">121</a> 行定义.</p>
+
+</div>
+</div>
+<h2 class="groupheader">类成员变量说明</h2>
+<a id="ab6f16bd0dc12e3fdbca88f6c7b52d7cf" name="ab6f16bd0dc12e3fdbca88f6c7b52d7cf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab6f16bd0dc12e3fdbca88f6c7b52d7cf">&#9670;&#160;</a></span>clearLabel</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">readonly GUIContent GoldSprite.GSTools.Debugger.RuntimeConsole.clearLabel = new GUIContent(&quot;Clear&quot;, &quot;Clear the contents of the console.&quot;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">在文件 <a class="el" href="../../de/d2a/_runtime_console_8cs_source.html">RuntimeConsole.cs</a> 第 <a class="el" href="../../de/d2a/_runtime_console_8cs_source.html#l00097">97</a> 行定义.</p>
+
+</div>
+</div>
+<a id="ac17c8891cca0a1ae22185540130d624f" name="ac17c8891cca0a1ae22185540130d624f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac17c8891cca0a1ae22185540130d624f">&#9670;&#160;</a></span>collapse</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool GoldSprite.GSTools.Debugger.RuntimeConsole.collapse</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">在文件 <a class="el" href="../../de/d2a/_runtime_console_8cs_source.html">RuntimeConsole.cs</a> 第 <a class="el" href="../../de/d2a/_runtime_console_8cs_source.html#l00081">81</a> 行定义.</p>
+
+</div>
+</div>
+<a id="a5871e20ff4b585018e683139a155137b" name="a5871e20ff4b585018e683139a155137b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5871e20ff4b585018e683139a155137b">&#9670;&#160;</a></span>collapseLabel</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">readonly GUIContent GoldSprite.GSTools.Debugger.RuntimeConsole.collapseLabel = new GUIContent(&quot;Collapse&quot;, &quot;Hide repeated messages.&quot;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">在文件 <a class="el" href="../../de/d2a/_runtime_console_8cs_source.html">RuntimeConsole.cs</a> 第 <a class="el" href="../../de/d2a/_runtime_console_8cs_source.html#l00098">98</a> 行定义.</p>
+
+</div>
+</div>
+<a id="a0466cb0d09ea8b1d3b2a2a35e8ad7212" name="a0466cb0d09ea8b1d3b2a2a35e8ad7212"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0466cb0d09ea8b1d3b2a2a35e8ad7212">&#9670;&#160;</a></span>isScrollBottom</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool GoldSprite.GSTools.Debugger.RuntimeConsole.isScrollBottom</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">在文件 <a class="el" href="../../de/d2a/_runtime_console_8cs_source.html">RuntimeConsole.cs</a> 第 <a class="el" href="../../de/d2a/_runtime_console_8cs_source.html#l00082">82</a> 行定义.</p>
+
+</div>
+</div>
+<a id="adedf3fe6c6fcd15a64827d62015524d7" name="adedf3fe6c6fcd15a64827d62015524d7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adedf3fe6c6fcd15a64827d62015524d7">&#9670;&#160;</a></span>logs</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">readonly List&lt;<a class="el" href="../../d3/d94/struct_gold_sprite_1_1_g_s_tools_1_1_debugger_1_1_runtime_console_1_1_log.html">Log</a>&gt; GoldSprite.GSTools.Debugger.RuntimeConsole.logs = new List&lt;<a class="el" href="../../d3/d94/struct_gold_sprite_1_1_g_s_tools_1_1_debugger_1_1_runtime_console_1_1_log.html">Log</a>&gt;()</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">在文件 <a class="el" href="../../de/d2a/_runtime_console_8cs_source.html">RuntimeConsole.cs</a> 第 <a class="el" href="../../de/d2a/_runtime_console_8cs_source.html#l00078">78</a> 行定义.</p>
+
+</div>
+</div>
+<a id="a199e80518e78729941a8ed13574d9d20" name="a199e80518e78729941a8ed13574d9d20"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a199e80518e78729941a8ed13574d9d20">&#9670;&#160;</a></span>logTypeColors</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">readonly Dictionary&lt;LogType, Color&gt; GoldSprite.GSTools.Debugger.RuntimeConsole.logTypeColors</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<b>初始值:</b><div class="fragment"><div class="line">= <span class="keyword">new</span> Dictionary&lt;LogType, Color&gt;</div>
+<div class="line">        {</div>
+<div class="line">            { LogType.Assert, Color.white },</div>
+<div class="line">            { LogType.Error, Color.red },</div>
+<div class="line">            { LogType.Exception, Color.red },</div>
+<div class="line">            { LogType.Log, Color.white },</div>
+<div class="line">            { LogType.Warning, Color.yellow },</div>
+<div class="line">        }</div>
+</div><!-- fragment -->
+<p class="definition">在文件 <a class="el" href="../../de/d2a/_runtime_console_8cs_source.html">RuntimeConsole.cs</a> 第 <a class="el" href="../../de/d2a/_runtime_console_8cs_source.html#l00086">86</a> 行定义.</p>
+
+</div>
+</div>
+<a id="a7a2de5215c26372eeab073504963e622" name="a7a2de5215c26372eeab073504963e622"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7a2de5215c26372eeab073504963e622">&#9670;&#160;</a></span>margin</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const int GoldSprite.GSTools.Debugger.RuntimeConsole.margin = 20</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">在文件 <a class="el" href="../../de/d2a/_runtime_console_8cs_source.html">RuntimeConsole.cs</a> 第 <a class="el" href="../../de/d2a/_runtime_console_8cs_source.html#l00096">96</a> 行定义.</p>
+
+</div>
+</div>
+<a id="a00d7458923e3bc28172273e8d6db7fa2" name="a00d7458923e3bc28172273e8d6db7fa2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a00d7458923e3bc28172273e8d6db7fa2">&#9670;&#160;</a></span>maxLogs</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int GoldSprite.GSTools.Debugger.RuntimeConsole.maxLogs = 1000</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Number of logs to keep before removing old ones. </p>
+
+<p class="definition">在文件 <a class="el" href="../../de/d2a/_runtime_console_8cs_source.html">RuntimeConsole.cs</a> 第 <a class="el" href="../../de/d2a/_runtime_console_8cs_source.html#l00074">74</a> 行定义.</p>
+
+</div>
+</div>
+<a id="aca18ae140f9f10b2c0d6debf62ad9047" name="aca18ae140f9f10b2c0d6debf62ad9047"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aca18ae140f9f10b2c0d6debf62ad9047">&#9670;&#160;</a></span>restrictLogCount</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool GoldSprite.GSTools.Debugger.RuntimeConsole.restrictLogCount = false</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Whether to only keep a certain number of logs. </p>
+<p>Setting this can be helpful if memory usage is a concern. </p>
+
+<p class="definition">在文件 <a class="el" href="../../de/d2a/_runtime_console_8cs_source.html">RuntimeConsole.cs</a> 第 <a class="el" href="../../de/d2a/_runtime_console_8cs_source.html#l00069">69</a> 行定义.</p>
+
+</div>
+</div>
+<a id="ae91e9dc911b55f657a7ce49715f3ba62" name="ae91e9dc911b55f657a7ce49715f3ba62"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae91e9dc911b55f657a7ce49715f3ba62">&#9670;&#160;</a></span>scrollPosition</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Vector2 GoldSprite.GSTools.Debugger.RuntimeConsole.scrollPosition</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">在文件 <a class="el" href="../../de/d2a/_runtime_console_8cs_source.html">RuntimeConsole.cs</a> 第 <a class="el" href="../../de/d2a/_runtime_console_8cs_source.html#l00079">79</a> 行定义.</p>
+
+</div>
+</div>
+<a id="a54d6ac577ed6bfd166170dabc5b2701d" name="a54d6ac577ed6bfd166170dabc5b2701d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a54d6ac577ed6bfd166170dabc5b2701d">&#9670;&#160;</a></span>shakeAcceleration</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">float GoldSprite.GSTools.Debugger.RuntimeConsole.shakeAcceleration = 3f</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>The (squared) acceleration above which the window should open. </p>
+
+<p class="definition">在文件 <a class="el" href="../../de/d2a/_runtime_console_8cs_source.html">RuntimeConsole.cs</a> 第 <a class="el" href="../../de/d2a/_runtime_console_8cs_source.html#l00062">62</a> 行定义.</p>
+
+</div>
+</div>
+<a id="aef22d5a0121ec65c24852d70544a4df6" name="aef22d5a0121ec65c24852d70544a4df6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aef22d5a0121ec65c24852d70544a4df6">&#9670;&#160;</a></span>shakeToOpen</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool GoldSprite.GSTools.Debugger.RuntimeConsole.shakeToOpen = true</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Whether to open the window by shaking the device (mobile-only). </p>
+
+<p class="definition">在文件 <a class="el" href="../../de/d2a/_runtime_console_8cs_source.html">RuntimeConsole.cs</a> 第 <a class="el" href="../../de/d2a/_runtime_console_8cs_source.html#l00057">57</a> 行定义.</p>
+
+</div>
+</div>
+<a id="aca977788d5a02e72120b9d1ce618fee4" name="aca977788d5a02e72120b9d1ce618fee4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aca977788d5a02e72120b9d1ce618fee4">&#9670;&#160;</a></span>titleBarRect</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">readonly Rect GoldSprite.GSTools.Debugger.RuntimeConsole.titleBarRect = new Rect(0, 0, 10000, 20)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">在文件 <a class="el" href="../../de/d2a/_runtime_console_8cs_source.html">RuntimeConsole.cs</a> 第 <a class="el" href="../../de/d2a/_runtime_console_8cs_source.html#l00100">100</a> 行定义.</p>
+
+</div>
+</div>
+<a id="a6ec1d5b30b9d778098980a8a70e07c9b" name="a6ec1d5b30b9d778098980a8a70e07c9b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6ec1d5b30b9d778098980a8a70e07c9b">&#9670;&#160;</a></span>toggleKey</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">KeyCode GoldSprite.GSTools.Debugger.RuntimeConsole.toggleKey = KeyCode.BackQuote</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>The hotkey to show and hide the console window. </p>
+
+<p class="definition">在文件 <a class="el" href="../../de/d2a/_runtime_console_8cs_source.html">RuntimeConsole.cs</a> 第 <a class="el" href="../../de/d2a/_runtime_console_8cs_source.html#l00052">52</a> 行定义.</p>
+
+</div>
+</div>
+<a id="a3acd9f1a599bc44fb32732a2a8cfe2a2" name="a3acd9f1a599bc44fb32732a2a8cfe2a2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3acd9f1a599bc44fb32732a2a8cfe2a2">&#9670;&#160;</a></span>visible</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool GoldSprite.GSTools.Debugger.RuntimeConsole.visible</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">在文件 <a class="el" href="../../de/d2a/_runtime_console_8cs_source.html">RuntimeConsole.cs</a> 第 <a class="el" href="../../de/d2a/_runtime_console_8cs_source.html#l00080">80</a> 行定义.</p>
+
+</div>
+</div>
+<a id="af285fc90d7548573575d32928866ef4c" name="af285fc90d7548573575d32928866ef4c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af285fc90d7548573575d32928866ef4c">&#9670;&#160;</a></span>windowRect</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Rect GoldSprite.GSTools.Debugger.RuntimeConsole.windowRect = new Rect(<a class="el" href="../../d8/d66/class_gold_sprite_1_1_g_s_tools_1_1_debugger_1_1_runtime_console.html#a7a2de5215c26372eeab073504963e622">margin</a>, <a class="el" href="../../d8/d66/class_gold_sprite_1_1_g_s_tools_1_1_debugger_1_1_runtime_console.html#a7a2de5215c26372eeab073504963e622">margin</a>, Screen.width - (<a class="el" href="../../d8/d66/class_gold_sprite_1_1_g_s_tools_1_1_debugger_1_1_runtime_console.html#a7a2de5215c26372eeab073504963e622">margin</a> * 2), Screen.height - (<a class="el" href="../../d8/d66/class_gold_sprite_1_1_g_s_tools_1_1_debugger_1_1_runtime_console.html#a7a2de5215c26372eeab073504963e622">margin</a> * 2))</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">在文件 <a class="el" href="../../de/d2a/_runtime_console_8cs_source.html">RuntimeConsole.cs</a> 第 <a class="el" href="../../de/d2a/_runtime_console_8cs_source.html#l00101">101</a> 行定义.</p>
+
+</div>
+</div>
+<a id="a1c38bf98fb980e27448d7600df5a946d" name="a1c38bf98fb980e27448d7600df5a946d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1c38bf98fb980e27448d7600df5a946d">&#9670;&#160;</a></span>windowTitle</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const string GoldSprite.GSTools.Debugger.RuntimeConsole.windowTitle = &quot;Console&quot;</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">在文件 <a class="el" href="../../de/d2a/_runtime_console_8cs_source.html">RuntimeConsole.cs</a> 第 <a class="el" href="../../de/d2a/_runtime_console_8cs_source.html#l00095">95</a> 行定义.</p>
+
+</div>
+</div>
+<hr/>该类的文档由以下文件生成:<ul>
+<li>E:/WorkSpaces/Unity_WorkSpace/Projects/TestProject_All_2023.3.8/Assets/GSTools/GsTool_Debugger_V2.4.0_231011_alpha/Scripts/Components/<a class="el" href="../../de/d2a/_runtime_console_8cs_source.html">RuntimeConsole.cs</a></li>
+</ul>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="../../d3/d14/namespace_gold_sprite.html">GoldSprite</a></li><li class="navelem"><a class="el" href="../../d5/da8/namespace_gold_sprite_1_1_g_s_tools.html">GSTools</a></li><li class="navelem"><a class="el" href="../../d2/d03/namespace_gold_sprite_1_1_g_s_tools_1_1_debugger.html">Debugger</a></li><li class="navelem"><a class="el" href="../../d8/d66/class_gold_sprite_1_1_g_s_tools_1_1_debugger_1_1_runtime_console.html">RuntimeConsole</a></li>
+    <li class="footer">制作者 <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8 </li>
+  </ul>
+</div>
+</body>
+</html>
